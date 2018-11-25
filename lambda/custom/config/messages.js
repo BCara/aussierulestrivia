@@ -13,7 +13,7 @@
 
 const questions = require('./questions');
 const settings = require('./settings');
-const GAME_TITLE = 'Better with Buttons Trivia';
+const GAME_TITLE = 'Aussie Rules, two thousand and eighteen quiz';
 const GAME_TITLE_GERMAN = 'Besser mit Buttons Trivia';
 
 const messages = {
@@ -74,7 +74,7 @@ const messages = {
         reprompt: 'Please say a number between one and ' + settings.GAME.MAX_PLAYERS
       },
       'SINGLE_PLAYER_GAME_READY': {
-        outputSpeech: ["Fantastic! Are you ready to start the game?"],
+        outputSpeech: ["Fantastic! You don't need echo buttons for a single player game. Are you ready to start the game?"],
         reprompt: "Ready to start the game?",
         displayTitle: GAME_TITLE + " - Welcome",
         displayText: "Are you ready to start the game?"

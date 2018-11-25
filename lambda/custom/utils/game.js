@@ -798,7 +798,6 @@ const Game = {
       'targetGadgets': gadgetIds,
       'animations': settings.ANIMATIONS.BUZZ_IN_ANIMATION
     }));
-
     // everyone gets the same animations
     ctx.directives.push(directives.GadgetController.setIdleAnimation({
       'targetGadgets': gadgetIds,

@@ -11,7 +11,6 @@
  * permissions and limitations under the License.
  */
 
-
 /**
  * Questions library
  *
@@ -46,191 +45,323 @@
  * See model file at models/en-US.json for a complete example.
  */
 module.exports = Object.freeze({
-    questions_en_US: [
+    questions_en_GB: [
         {
             index: 1,
-            question: 'What is the name for a group of lions?',
-            answers: ['pack', 'pride', 'den', 'frat'],
-            correct_answer: 'pride'
+            question: 'What date was the first game of the 2018 AFL season?',
+            answers: ['Twentieth of March', 'Twentysecond of March', 'eighteenth of March', 'seventeenth of March'],
+            correct_answer: 'Twentysecond of March'
         },
         {
-          index: 2,
-          question: 'What is the only type of bear native to South America?',
-          answers: ['brown bear', 'kodiac', 'giant panda', 'spectacled bear'],
-          correct_answer: 'spectacled bear'
+            index: 2,
+            question: 'Which team lost in the grandfinal?',
+            answers: ['Collingwood', 'West Coast', 'Adelaide', 'Hawthorn'],
+            correct_answer: 'Collingwood'
         },
         {
             index: 3,
-            question: 'What type of animal is a seahorse?',
-            answers: ['crustacean', 'arachnid', 'fish', 'shell'],
-            correct_answer: 'fish'
+            question: 'There was one drawn game during the ladder but which teams was it between?',
+            answers: ['Geelong versus Adelaide', 'Essendon versus Hawthorn', 'Brisbane versus Gold Coast', 'Greater Western Sydney versus St Kilda'],
+            correct_answer: 'Greater Western Sydney versus St Kilda'
         },
         {
             index: 4,
-            question: 'What color are zebras?',
-            answers: ['white with black stripes', 'black with white stripes'],
-            correct_answer: 'black with white stripes'
+            question: 'Who won the best young player?',
+            answers: ['Sam Powell Pepper', 'Hugh McCluggage', 'Tom Stewart', 'Luke Ryan'],
+            correct_answer: 'Tom Stewart'
         },
         {
             index: 5,
-            question: 'What is the fastest water animal?',
-            answers: ['porpoise', 'sailfish', 'flying fish', 'tuna'],
-            correct_answer: 'sailfish'
+            question: 'Which team had the highest average attendance, home and away?',
+            answers: ['Adelaide', 'Richmond', 'Essendon', 'West Coast'],
+            correct_answer: 'Richmond'
         },
         {
             index: 6,
-            question: 'What is the only venomous snake found in Britain?',
-            answers: ['cobra', 'coral snake', 'copperhead', 'adder'],
-            correct_answer: 'adder'
+            question: 'Which team had the lowest average attendance, home and away?',
+            answers: ['North Melbourne', 'Gold Coast', 'St Kilda', 'Brisbane'],
+            correct_answer: 'Gold Coast'
         },
         {
             index: 7,
-            question: 'What is a female donkey called?',
-            answers: ['joey', 'jenny', 'janet'],
-            correct_answer: 'jenny'
+            question: 'How many games did Collingwood play?',
+            answers: ['26', '24', '23', '22'],
+            correct_answer: '26'
         },
         {
             index: 8,
-            question: 'What land mammal other than man has the longest lifespan?',
-            answers: ['blue whale', 'dolphin', 'elephant', 'orangutan'],
-            correct_answer: 'elephant'
+            question: 'How many goals did Jack Riewoldt score during the season?',
+            answers: ['45', '65', '55', '75'],
+            correct_answer: '65'
         },
         {
             index: 9,
-            question: 'Eskimos call what kind of creature a nanook?',
-            answers: ['penguin', 'narwhal', 'polar bear', 'caribou'],
-            correct_answer: 'polar bear'
+            question: 'How many wooden spoons have Carlton earned in total?',
+            answers: ['5', '6', '7', '8'],
+            correct_answer: '5'
         },
         {
             index: 10,
-            question: 'Lupus is the Latin name for what animal?',
-            answers: ['dog', 'cat', 'wolf', 'fox'],
-            correct_answer: 'wolf'
+            question: 'Who was the shortest AFL player in 2018?',
+            answers: ['Cory Gregson', 'Tyson Sengle', 'Caleb Daniel'],
+            correct_answer: 'Caleb Daniel'
+        },
+        {
+            index: 11,
+            question: 'Who was the lightest AFL player by weight in 2018?',
+            answers: ['Dylan Moore', 'Tom Bellchambers', 'Will Powell', 'Stefan Giro'],
+            correct_answer: 'Dylan Moore'
+        },
+        {
+            index: 12,
+            question: 'Victoria provided the most player by state in 2018, but which state provided the second most?',
+            answers: ['Queensland', 'Western Australia', 'New South Wales'],
+            correct_answer: 'Western Australia'
+        },
+        {
+            index: 13,
+            question: 'How many 2018 AFL players played their first AFL game overseas?',
+            answers: [ '2', '30', '0', '14'],
+            correct_answer: '14'
+        },
+        {
+            index: 14,
+            question: 'How tall are Aaron Sandilands and Mason Cox?',
+            answers: ['two hundred and nineteen centimetres', 'two hundred and thirty centimetres', 'two hundred eleven centimetres', 'one hundred and ninety nine centimetres'],
+            correct_answer: 'two hundred and eleven centimetres'
+        },
+        {
+            index: 15,
+            question: 'Who won the most valuable player award?',
+            answers: ['Tom Mitchell', 'Dustin Martin', 'Patrick Dangerfield', 'Jack Steven'],
+            correct_answer: 'Tom Mitchell'
+        },
+        {
+            index: 16,
+            question: 'Which of these was not an AFL player in 2018?',
+            answers: ['Matt Crouch', 'Liam Picken', 'James Parkinson', 'Aliir Aliir'],
+            correct_answer: 'James Parkinson'
+        },
+        {
+            index: 17,
+            question: 'Who made the most tackles during the season?',
+            answers: ['Luke Shuey', 'Mitch Duncan', 'Matt Crouch', 'Sam Powell-Pepper'],
+            correct_answer: 'Sam Powell Pepper'
+        },
+        {
+            index: 18,
+            question: 'Which player had the most metres gained?',
+            answers: ['Heath Shaw', 'Daniel Rich', 'Tom Barrass', 'Tom Jonas'],
+            correct_answer: 'Heath Shaw'
+        },
+        {
+            index: 19,
+            question: 'Which player made the most kicks?',
+            answers: ['Kade Simpson', 'Sam Docherty', 'Shane Savage', 'Zak Jones'],
+            correct_answer: 'Kade Simpson'
+        },
+        {
+            index: 20,
+            question: 'When was the AFL inaugural season?',
+            answers: ['Nineteen Nineteen', 'Nineteen three', 'Eighteen Fifty Two', 'Eighteen Ninety Seven'],
+            correct_answer: 'Eighteen Ninety Seven'
+        },
+        {
+            index: 21,
+            question: 'If the 2018 grand final had ended in a draw, how would the winner have been decided?',
+            answers: ['Replay', 'Penalty Shootout', 'Extra time', 'Shared Trophy'],
+            correct_answer: 'Extra time'
+        },
+        {
+            index: 22,
+            question: 'Which company was AFL 2018s premier partner?',
+            answers: ['McDonalds', 'Toyota', 'Fox', 'National Australia Bank'],
+            correct_answer: 'Toyota'
+        },
+        {
+            index: 23,
+            question: 'How many women\'s AFL teams participated in the 2018 season?',
+            answers: [ '12', '8', '18'],
+            correct_answer: '8'
+        },
+        {
+            index: 24,
+            question: 'Jack Gunston won the longest kick, but how far was it?',
+            answers: ['66.9 metres', '55.7 metres', '75 metres', '80.2 metres'],
+            correct_answer: '66.9 metres'
+        },
+        {
+            index: 25,
+            question: 'Was the attendance at the grand final higher, lower of the same as last year?',
+            answers: ['One person higher', 'One Person Lower', 'The same'],
+            correct_answer: 'One person higher'
+        },
+        {
+            index: 26,
+            question: 'Who was the AFL CEO in 2018?',
+            answers: ['Richard Goyder', 'Gillon McLachlan', 'Mike Fitzpatrick', 'Guy Williams'],
+            correct_answer: 'Gillon McLachlan'
         }
 
     ],
-    questions_en_GB: [
-      {
-          index: 1,
-          question: 'What is the name for a group of lions?',
-          answers: ['pack', 'pride', 'den', 'frat'],
-          correct_answer: 'pride'
-      },
-      {
-          index: 2,
-          question: 'What is the only type of bear native to South America?',
-          answers: ['brown bear', 'kodiac', 'giant panda', 'spectacled bear'],
-          correct_answer: 'spectacled bear'
-      },
-      {
-          index: 3,
-          question: 'What type of animal is a seahorse?',
-          answers: ['crustacean', 'arachnid', 'fish', 'shell'],
-          correct_answer: 'fish'
-      },
-      {
-          index: 4,
-          question: 'What color are zebras?',
-          answers: ['white with black stripes', 'black with white stripes'],
-          correct_answer: 'black with white stripes'
-      },
-      {
-          index: 5,
-          question: 'What is the fastest water animal?',
-          answers: ['porpoise', 'sailfish', 'flying fish', 'tuna'],
-          correct_answer: 'sailfish'
-      },
-      {
-          index: 6,
-          question: 'What is the only venomous snake found in Britain?',
-          answers: ['cobra', 'coral snake', 'copperhead', 'adder'],
-          correct_answer: 'adder'
-      },
-      {
-          index: 7,
-          question: 'What is a female donkey called?',
-          answers: ['joey', 'jenny', 'janet'],
-          correct_answer: 'jenny'
-      },
-      {
-          index: 8,
-          question: 'What land mammal other than man has the longest lifespan?',
-          answers: ['blue whale', 'dolphin', 'elephant', 'orangutan'],
-          correct_answer: 'elephant'
-      },
-      {
-          index: 9,
-          question: 'Eskimos call what kind of creature a nanook?',
-          answers: ['penguin', 'narwhal', 'polar bear', 'caribou'],
-          correct_answer: 'polar bear'
-      },
-      {
-          index: 10,
-          question: 'Lupus is the Latin name for what animal?',
-          answers: ['dog', 'cat', 'wolf', 'fox'],
-          correct_answer: 'wolf'
-      }
-  ],
-  questions_de_DE: [
-    {
-        index: 1,
-        question: 'Wie wird eine Gruppe von Löwen genannt?',
-        answers: ['Rotte', 'Rudel', 'Schule', 'Meute'],
-        correct_answer: 'Rudel'
-    },
-    {
-        index: 2,
-        question: 'Welches ist die einzige aus Südamerika stammende Bärenart?',
-        answers: ['Braunbär', 'Kodiakbär', 'Riesenpanda', 'Brillenbär'],
-        correct_answer: 'Brillenbär'
-    },
-    {
-        index: 3,
-        question: 'Was für eine Art Tier ist ein Seepferdchen?',
-        answers: ['Krustentier', 'Spinnentier', 'Fisch', 'Muschel'],
-        correct_answer: 'Fisch'
-    },
-    {
-        index: 4,
-        question: 'Welche Farbe haben Zebras?',
-        answers: ['Weiß mit schwarzen Streifen', 'Schwarz mit weißen Streifen'],
-        correct_answer: 'Schwarz mit weißen Streifen'
-    },
-    {
-        index: 5,
-        question: 'Was ist das schnellste Wassertier?',
-        answers: ['Schweinswal', 'Fächerfisch', 'Fliegender Fisch', 'Thunfisch'],
-        correct_answer: 'Fächerfisch'
-    },
-    {
-        index: 6,
-        question: 'Welches ist die einzige giftige Schlange in Großbritannien?',
-        answers: ['Kobra', 'Korallenschlange', 'Mokassinschlange', 'Kreuzotter'],
-        correct_answer: 'Kreuzotter'
-    },
-    {
-        index: 7,
-        question: 'Was ist der Name eines berühmten männlichen Eisbären?',
-        answers: ['Sven', 'Knut', 'Olaf'],
-        correct_answer: 'Knut'
-    },
-    {
-        index: 8,
-        question: 'Welches Landsäugetier hat abgesehen vom Menschen die längste Lebensdauer?',
-        answers: ['Blauwal', 'Delfin', 'Elefant', 'Orang-Utan'],
-        correct_answer: 'Elefant'
-    },
-    {
-        index: 9,
-        question: 'Welches Tier bezeichnen die Eskimos als Nanook?',
-        answers: ['Pinguin', 'Narwal', 'Eisbär', 'Karibu'],
-        correct_answer: 'Eisbär'
-    },
-    {
-        index: 10,
-        question: 'Lupus ist der lateinische Name für welches Tier?',
-        answers: ['Hund', 'Katze', 'Wolf', 'Fuchs'],
-        correct_answer: 'Wolf'
-    }
-]
+    questions_en_US: [
+        {
+            index: 1,
+            question: 'What date was the first game of the 2018 AFL season?',
+            answers: ['Twentieth of March', 'Twentysecond of March', 'eighteenth of March', 'seventeenth of March'],
+            correct_answer: 'Twentysecond of March'
+        },
+        {
+            index: 2,
+            question: 'Which team lost in the grandfinal?',
+            answers: ['Collingwood', 'West Coast', 'Adelaide', 'Hawthorn'],
+            correct_answer: 'Collingwood'
+        },
+        {
+            index: 3,
+            question: 'There was one drawn game during the ladder but which teams was it between?',
+            answers: ['Geelong versus Adelaide', 'Essendon versus Hawthorn', 'Brisbane versus Gold Coast', 'Greater Western Sydney versus St Kilda'],
+            correct_answer: 'Greater Western Sydney versus St Kilda'
+        },
+        {
+            index: 4,
+            question: 'Who won the best young player?',
+            answers: ['Sam Powell Pepper', 'Hugh McCluggage', 'Tom Stewart', 'Luke Ryan'],
+            correct_answer: 'Tom Stewart'
+        },
+        {
+            index: 5,
+            question: 'Which team had the highest average attendance, home and away?',
+            answers: ['Adelaide', 'Richmond', 'Essendon', 'West Coast'],
+            correct_answer: 'Richmond'
+        },
+        {
+            index: 6,
+            question: 'Which team had the lowest average attendance, home and away?',
+            answers: ['North Melbourne', 'Gold Coast', 'St Kilda', 'Brisbane'],
+            correct_answer: 'Gold Coast'
+        },
+        {
+            index: 7,
+            question: 'How many games did Collingwood play?',
+            answers: ['26', '24', '23', '22'],
+            correct_answer: '26'
+        },
+        {
+            index: 8,
+            question: 'How many goals did Jack Riewoldt score during the season?',
+            answers: ['45', '65', '55', '75'],
+            correct_answer: '65'
+        },
+        {
+            index: 9,
+            question: 'How many wooden spoons have Carlton earned in total?',
+            answers: ['5', '6', '7', '8'],
+            correct_answer: '5'
+        },
+        {
+            index: 10,
+            question: 'Who was the shortest AFL player in 2018?',
+            answers: ['Cory Gregson', 'Tyson Sengle', 'Caleb Daniel'],
+            correct_answer: 'Caleb Daniel'
+        },
+        {
+            index: 11,
+            question: 'Who was the lightest AFL player by weight in 2018?',
+            answers: ['Dylan Moore', 'Tom Bellchambers', 'Will Powell', 'Stefan Giro'],
+            correct_answer: 'Dylan Moore'
+        },
+        {
+            index: 12,
+            question: 'Victoria provided the most player by state in 2018, but which state provided the second most?',
+            answers: ['Queensland', 'Western Australia', 'New South Wales'],
+            correct_answer: 'Western Australia'
+        },
+        {
+            index: 13,
+            question: 'How many 2018 AFL players played their first AFL game overseas?',
+            answers: [ '2', '30', '0', '14'],
+            correct_answer: '14'
+        },
+        {
+            index: 14,
+            question: 'How tall are Aaron Sandilands and Mason Cox?',
+            answers: ['two hundred and nineteen centimetres', 'two hundred and thirty centimetres', 'two hundred eleven centimetres', 'one hundred and ninety nine centimetres'],
+            correct_answer: 'two hundred and eleven centimetres'
+        },
+        {
+            index: 15,
+            question: 'Who won the most valuable player award?',
+            answers: ['Tom Mitchell', 'Dustin Martin', 'Patrick Dangerfield', 'Jack Steven'],
+            correct_answer: 'Tom Mitchell'
+        },
+        {
+            index: 16,
+            question: 'Which of these was not an AFL player in 2018?',
+            answers: ['Matt Crouch', 'Liam Picken', 'James Parkinson', 'Aliir Aliir'],
+            correct_answer: 'James Parkinson'
+        },
+        {
+            index: 17,
+            question: 'Who made the most tackles during the season?',
+            answers: ['Luke Shuey', 'Mitch Duncan', 'Matt Crouch', 'Sam Powell-Pepper'],
+            correct_answer: 'Sam Powell Pepper'
+        },
+        {
+            index: 18,
+            question: 'Which player had the most metres gained?',
+            answers: ['Heath Shaw', 'Daniel Rich', 'Tom Barrass', 'Tom Jonas'],
+            correct_answer: 'Heath Shaw'
+        },
+        {
+            index: 19,
+            question: 'Which player made the most kicks?',
+            answers: ['Kade Simpson', 'Sam Docherty', 'Shane Savage', 'Zak Jones'],
+            correct_answer: 'Kade Simpson'
+        },
+        {
+            index: 20,
+            question: 'When was the AFL inaugural season?',
+            answers: ['Nineteen Nineteen', 'Nineteen three', 'Eighteen Fifty Two', 'Eighteen Ninety Seven'],
+            correct_answer: 'Eighteen Ninety Seven'
+        },
+        {
+            index: 21,
+            question: 'If the 2018 grand final had ended in a draw, how would the winner have been decided?',
+            answers: ['Replay', 'Penalty Shootout', 'Extra time', 'Shared Trophy'],
+            correct_answer: 'Extra time'
+        },
+        {
+            index: 22,
+            question: 'Which company was AFL 2018s premier partner?',
+            answers: ['McDonalds', 'Toyota', 'Fox', 'National Australia Bank'],
+            correct_answer: 'Toyota'
+        },
+        {
+            index: 23,
+            question: 'How many women\'s AFL teams participated in the 2018 season?',
+            answers: [ '12', '8', '18'],
+            correct_answer: '8'
+        },
+        {
+            index: 24,
+            question: 'Jack Gunston won the longest kick, but how far was it?',
+            answers: ['66.9 metres', '55.7 metres', '75 metres', '80.2 metres'],
+            correct_answer: '66.9 metres'
+        },
+        {
+            index: 25,
+            question: 'Was the attendance at the grand final higher, lower of the same as last year?',
+            answers: ['One person higher', 'One Person Lower', 'The same'],
+            correct_answer: 'One person higher'
+        },
+        {
+            index: 26,
+            question: 'Who was the AFL CEO in 2018?',
+            answers: ['Richard Goyder', 'Gillon McLachlan', 'Mike Fitzpatrick', 'Guy Williams'],
+            correct_answer: 'Gillon McLachlan'
+        }
+
+    ]
 });
+
